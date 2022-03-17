@@ -1,0 +1,11 @@
+openDoor(useHandle())
+
+goInRoom(goToTable(forward()))
+
+repeat 1000000 times (
+    cupOnTheTable = Cup()
+    takeCup(object = cupOnTheTable, solid = coffe)
+    drink()
+    
+)
+
